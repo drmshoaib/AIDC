@@ -1,0 +1,49 @@
+# Line endings and binary safety.
+#
+# This repository has core.autocrlf enabled. Without the rules below, Git
+# guesses which files are text, and a wrong guess silently corrupts a binary
+# on checkout. These rules remove the guessing.
+
+# Let Git normalise text to LF in the repository by default.
+* text=auto
+
+# Office documents and PDFs: never touch these.
+*.pptx  binary
+*.ppt   binary
+*.potx  binary
+*.docx  binary
+*.doc   binary
+*.xlsx  binary
+*.xls   binary
+*.pdf   binary
+
+# Images, archives and fonts.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.bmp   binary
+*.ico   binary
+*.svg   text eol=lf
+*.zip   binary
+*.gz    binary
+*.ttf   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+
+# Files that must be byte-identical for every student on every platform.
+*.ipynb text eol=lf
+*.csv   text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.json  text eol=lf
+*.tex   text eol=lf
+*.txt   text eol=lf
+*.sh    text eol=lf
+
+# Shell scripts for Windows keep CRLF.
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
