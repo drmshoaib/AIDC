@@ -1,0 +1,14 @@
+# Project configuration — scripts read paths and thresholds from this file.
+data:
+  raw_path: data/raw/plant_shift_log.csv
+  processed_path: data/processed/
+
+# Alert thresholds used by the Week 1 baseline heuristic (src/model.py).
+# These are illustrative starting values, not validated limits.
+# Note: on the Week 1 teaching data only the temperature rule fires.
+# The highest line mean downtime is about 13.9 minutes, well under the
+# limit below. A named threshold that never triggers is still a choice
+# you must be able to justify.
+thresholds:
+  motor_temp_c_max: 95.0
+  mean_downtime_min_max: 20.0

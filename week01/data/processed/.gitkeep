@@ -1,0 +1,2 @@
+# Keeps the processed/ folder in version control while its generated
+# contents stay out. Write cleaned/derived data here — never edit data/raw/.

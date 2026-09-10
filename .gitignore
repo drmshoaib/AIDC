@@ -1,0 +1,10 @@
+# Repository-wide ignores. Each week folder also has its own .gitignore.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db

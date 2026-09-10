@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+.pytest_cache/
+
+# Generated outputs: keep the folder, ignore its contents
+data/processed/*
+!data/processed/.gitkeep
