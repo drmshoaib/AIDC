@@ -38,11 +38,20 @@ documents, in this order:
 2. `README.md` — what you have to produce that week, where every file lives,
    and what each one is for.
 
-| Week | Folder | Topic |
-| --- | --- | --- |
-| 1 | [`week01/`](week01/) | From models to decision systems: diagnostic, project structure, command line and Git |
+| Week | Slides | Lab | Topic |
+| --- | --- | --- | --- |
+| 1 | [PDF](Week_01_Lecture_slides.pdf) | [`week01/`](week01/) | From models to decision systems: diagnostic, project structure, command line and Git |
+| 2 | [PDF](Week_02_Lecture.pdf) | [`week02/`](week02/) | Problem framing, stakeholders and data suitability |
+| 3 | [PDF](Week_03_Lecture_Slides.pdf) | Classroom 50 | Data quality and validation |
+| 4 | [PDF](Week_04_Lecture_Slides.pdf) | Classroom 50 | Reproducible project architecture and repository hygiene |
+| 5 | [PDF](Week_05_Lecture_Slides.pdf) | Classroom 50 | Baseline modelling on validated data |
+| 6 | [PDF](Week_06_Lecture_Slides.pdf) | Classroom 50 | Model interpretation, uncertainty and limitations |
+| 7 | [PDF](Week_07_Lecture_Slides.pdf) | Classroom 50 | Residual analysis and error diagnosis |
+| 8 | [PDF](Week_08_Lecture_Slides.pdf) | Classroom 50 | The capstone projects |
+| 9 | [PDF](Week_09_Lecture_Slides.pdf) | Classroom 50 | Testing your code and your data |
 
-Later weeks appear here as the course runs.
+From Week 3, each lab is your own Classroom 50 repository, so only the slides
+are published here. Later weeks appear here as the course runs.
 
 ---
 
